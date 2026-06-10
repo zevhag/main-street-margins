@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practical tools for pressure-testing small-business ideas.">
+  <title>Main Street Margins Tools</title>
+  <style>
+    :root { --navy:#071a2e; --navy2:#0d2742; --ivory:#f5e8cf; --amber:#e89b2c; --slate:#aab7c5; --line:#ffffff20; }
+    *{box-sizing:border-box} body{margin:0;background:var(--navy);color:var(--ivory);font:16px/1.6 Arial,sans-serif}
+    a{color:inherit}.wrap{width:min(1080px,calc(100% - 32px));margin:auto}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}
+    .brand{font-weight:800;letter-spacing:.08em}.brand span,.accent{color:var(--amber)}
+    .hero{padding:88px 0 64px;max-width:820px} .eyebrow{color:var(--amber);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:12px}
+    h1{font:700 clamp(45px,8vw,82px)/.98 Georgia,serif;letter-spacing:-.045em;margin:12px 0 22px}
+    h2{font:700 34px/1.1 Georgia,serif;margin:0 0 14px} h3{margin:0 0 6px}
+    p{color:var(--slate);margin:0 0 18px}.hero p{font-size:19px;max-width:680px}
+    .btn{display:inline-block;text-decoration:none;background:var(--amber);color:#151b22;padding:13px 19px;border-radius:8px;font-weight:800;margin:6px 8px 6px 0}
+    .btn.secondary{background:transparent;color:var(--ivory);border:1px solid var(--line)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:34px 0 76px}
+    .card{border:1px solid var(--line);border-radius:16px;padding:28px;background:linear-gradient(145deg,#ffffff0d,#ffffff04)}
+    .price{font-size:32px;font-weight:800;color:var(--amber);margin:8px 0}.label{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--slate)}
+    ul{padding-left:20px;color:var(--slate)}li{margin:8px 0}.proof{padding:28px 0 70px;border-top:1px solid var(--line)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{padding:20px;border-left:3px solid var(--amber);background:#ffffff08}
+    footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--slate);font-size:12px}
+    @media(max-width:720px){.grid,.steps{grid-template-columns:1fr}.hero{padding-top:55px}}
+  </style>
+</head>
+<body>
+  <nav class="wrap"><div class="brand">MAIN STREET <span>MARGINS</span></div><div>Practical business economics</div></nav>
+  <main>
+    <section class="hero wrap">
+      <div class="eyebrow">Challenge the pitch</div>
+      <h1>Find the hidden bill <span class="accent">before it finds you.</span></h1>
+      <p>Practical tools for turning a promising small-business idea into assumptions, break-even math, and questions worth validating.</p>
+      <a class="btn" href="free-one-page-margin-map.pdf" download>Download the free Margin Map</a>
+      <a class="btn secondary" href="#model-pack">See the Model Pack</a>
+    </section>
+
+    <section class="grid wrap">
+      <article class="card">
+        <div class="label">Free worksheet</div>
+        <h2>The One-Page Margin Map</h2>
+        <p>Identify the customer, revenue engine, hidden bill, break-even model, operator edge, and fastest cheap test.</p>
+        <ul>
+          <li>One printable page</li>
+          <li>Works for almost any small-business idea</li>
+          <li>Designed to expose weak assumptions quickly</li>
+        </ul>
+        <a class="btn" href="free-one-page-margin-map.pdf" download>Download the free worksheet</a>
+      </article>
+
+      <article class="card" id="model-pack">
+        <div class="label">Paid starter product</div>
+        <h2>Main Street Margin Model Pack</h2>
+        <div class="price">$19 launch price</div>
+        <p>Stop starting from a blank spreadsheet. Model a full year, compare scenarios, and calculate break-even volume.</p>
+        <ul>
+          <li>12-month operating model</li>
+          <li>Downside, base, and upside comparison</li>
+          <li>Worked self-storage, laundromat, and express-car-wash examples</li>
+          <li>Decision and validation checklist</li>
+        </ul>
+        <a class="btn" href="margin-model-pack-preview.html">Preview the Model Pack</a>
+      </article>
+    </section>
+
+    <section class="proof wrap">
+      <h2>A model is useful when it makes the decision harder.</h2>
+      <div class="steps">
+        <div class="step"><strong>1. Replace inputs</strong><p>Use real quotes, observed demand, and conservative estimates.</p></div>
+        <div class="step"><strong>2. Stress the downside</strong><p>Lower volume and price while raising costs.</p></div>
+        <div class="step"><strong>3. Validate the risk</strong><p>Test the assumption with the greatest effect before committing capital.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap">Educational tools only. Results depend on assumptions and circumstances. Not financial, legal, tax, or investment advice.</footer>
+</body>
+</html>
